@@ -1,12 +1,11 @@
 focus_tree = {
 	id = soviet_test_focus_tree
 	
+	original = SOV
+	
 	country = {
 		factor = 1
-		modifier = {
-			add = 10
-			tag = SOV
-		}
+		tag = SOV
 	}
 	
 	default = no
