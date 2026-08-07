@@ -1,0 +1,38 @@
+focus_tree = {
+	id = soviet_test_focus_tree
+	
+	country = {
+		factor = 1
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	default = no
+	
+	# Тестовый фокус для СССР
+	focus = {
+		id = SOV_test_focus
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 0
+		cost = 5
+		
+		available = {
+			has_country_leader = {
+				ruling_only = yes
+			}
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			custom_effect_tooltip = SOV_test_focus_tooltip
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
