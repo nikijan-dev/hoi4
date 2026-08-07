@@ -11,7 +11,6 @@ focus_tree = {
 	
 	default = no
 	
-	# Тестовый фокус для СССР
 	focus = {
 		id = SOV_test_focus
 		icon = GFX_goal_generic_political_pressure
@@ -28,7 +27,6 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.05
-			custom_effect_tooltip = SOV_test_focus_tooltip
 		}
 		
 		ai_will_do = {
